@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+streamlit>=1.35.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+joblib>=1.3.0
+
 # Load trained model
 model = joblib.load("Diabetes.joblib")
 
